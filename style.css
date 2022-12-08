@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(24, 24, 109);
+    color: white;
+}
+
+#container {
+    border-style: solid;
+    border-width: 3px;
+    border-color: antiquewhite;
+    padding: 12px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+#tiles {
+    border-style: solid;
+    border-color: aqua;
+}
