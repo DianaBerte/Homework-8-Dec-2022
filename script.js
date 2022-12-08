@@ -16,8 +16,7 @@ function onLoadTable() {
         
         numNode.classList.add("num");
         numNode.innerText = num;
-        numNode.addEventListener("click");
-
+        
         document.getElementById("container").appendChild(numNode);
     }
 }
