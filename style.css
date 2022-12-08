@@ -3,7 +3,14 @@ body {
     color: white;
 }
 
-.container {
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#container {
+    
+    text-align: center;
     display: inline-block;
     width: 1000px;
     border-style: solid;
@@ -17,7 +24,13 @@ body {
     width: 100px;
     height: 50px;
     display: inline-block;
-    border-style: solid;
-    border-color: aqua;
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: rgb(30, 50, 230);
+    margin: 2px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
 }
+
 
