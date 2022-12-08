@@ -3,16 +3,21 @@ body {
     color: white;
 }
 
-#container {
+.container {
+    display: inline-block;
+    width: 1000px;
     border-style: solid;
     border-width: 3px;
     border-color: antiquewhite;
     padding: 12px;
     border-radius: 8px;
-    display: inline-block;
 }
 
-#tiles {
+.tiles {
+    width: 100px;
+    height: 50px;
+    display: inline-block;
     border-style: solid;
     border-color: aqua;
 }
+

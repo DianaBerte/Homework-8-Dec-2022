@@ -14,7 +14,7 @@ function onLoadTable() {
     for (let num = 1; num <= 76; num++) {
         let numNode = document.createElement("div");
         
-        numNode.classList.add("num");
+        numNode.classList.add("tiles");
         numNode.innerText = num;
         
         document.getElementById("container").appendChild(numNode);
